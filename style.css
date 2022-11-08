@@ -11,12 +11,15 @@ body{
     height: 100vh;
     display: grid;
     place-items: center;
+    background-color: rgb(48, 46, 46);
 }
-.slider{
+.slider, img{
     position: relative;
-    width: 400px;
-    height: 400px;
-    background-image: url('img1.jpeg');
+    width: 70vw;
+    height: 70vh;
+}
+img{
+    object-fit:cover;
 }
 .control{
     position: absolute;
